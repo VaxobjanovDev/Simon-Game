@@ -23,28 +23,45 @@
 }
 
 .colorCard{
+	cursor: pointer;
 	width: 300px;
 	height: 300px;
 }
-
+.flash.flash{
+	border: 3px solid rgb(61, 43, 43);
+}
+.green.flash{
+	background-color: rgb(125, 150, 50);
+}
 .green{
 	border-top-left-radius: 100%;
-	background-color: green;
+	background-color: rgb(0, 125, 0);
+}
+
+.yellow.flash{
+	background-color: rgb(255, 255, 145);
 }
 
 .yellow{
 	border-bottom-right-radius: 100%;
-	background-color: yellow;
+	background-color: rgb(255, 255, 0);
 }
 
+.red.flash{
+	background-color: rgb(255, 125, 125);
+}
 .red{
 	border-top-right-radius: 100%;
 	background-color: red;
 }
 
+.blue.flash{
+	background-color: rgb(125, 125, 255);
+}
+
 .blue{
 	border-bottom-left-radius: 100%;
-	background-color: blue;
+	background-color: rgb(0, 0, 255);
 }
 
 .btn{
