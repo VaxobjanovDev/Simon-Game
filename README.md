@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This project simple game with React js and you can play this game https://simon-games-app.netlify.app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
