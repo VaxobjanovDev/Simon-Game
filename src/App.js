@@ -1,12 +1,12 @@
-import React from 'react'
-import Circle from './component/Circle'
+import React from "react";
+import Circle from "./component/Circle";
 
 const App = () => {
   return (
     <div>
-      <Circle/>
+      <Circle />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

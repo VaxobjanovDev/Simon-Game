@@ -1,140 +1,154 @@
 * {
   padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body,html{
-	overflow-x: hidden;
+body,
+html {
+  overflow-x: hidden;
 }
 
-.section{
-	min-height: 100vh;
-	background-color: rgb(33, 138, 207);
+.section {
+  min-height: 100vh;
+  background-color: rgb(33, 138, 207);
 }
 
-.text-header{
-	margin: 3rem 0;
-	text-align: center;
+.text-header {
+  margin: 3rem 0;
+  text-align: center;
 }
 
-.text-header h2{
-	color: #fff;
-	font-size: 3rem;
+.text-header h2 {
+  color: #fff;
+  font-size: 3rem;
 }
 
-.container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	height: 100vh;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.quarterCircle{
-	position: relative;
-	display: flex;
-	flex-wrap:wrap;
-	width: 576px;
+.quarterCircle {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 576px;
 }
 
-.colorCard{
-	cursor: pointer;
-	width: 288px;
-	height: 288px;
+.colorCard {
+  cursor: pointer;
+  width: 288px;
+  height: 288px;
 }
 
-.lost{
-	position: absolute;
-	background-color: rgb(34, 22, 22);
-	width: 20rem;
-	height: 20rem;
-	text-align: center;
-	border-radius: 50%;
-	color: #fff;
+.lost {
+  top: 43%;
+  position: absolute;
+  background-color: rgb(34, 22, 22);
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
 }
 
-.lost h3{
-	font-size: 2.5rem;
-	padding: 6rem 0 2rem 0;
+.lost h3 {
+  font-size: 2.5rem;
+  padding: 6rem 0 2rem 0;
 }
 
-.lost button{
-	cursor: pointer;
-	font-size: 2rem;
-	padding: 0.5rem 1rem;
-	color: #fff;
-	border-radius: 10px;
-	background-color: rgb(255, 21, 0);
-	border: none;
+.lost button {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgb(255, 21, 0);
+  border: none;
 }
-.flash.flash{
-	border: 3px solid rgb(61, 43, 43);
+.flash.flash {
+  border: 3px solid rgb(61, 43, 43);
 }
-.green.flash{
-	background-color: rgb(125, 150, 50);
+.green.flash {
+  background-color: rgb(125, 150, 50);
 }
-.green{
-	border-top-left-radius: 100%;
-	background-color: rgb(0, 125, 0);
-}
-
-.yellow.flash{
-	background-color: rgb(255, 255, 145);
+.green {
+  border-top-left-radius: 100%;
+  background-color: rgb(0, 125, 0);
 }
 
-.yellow{
-	border-bottom-right-radius: 100%;
-	background-color: rgb(255, 255, 0);
+.yellow.flash {
+  background-color: rgb(255, 255, 145);
 }
 
-.red.flash{
-	background-color: rgb(255, 125, 125);
-}
-.red{
-	border-top-right-radius: 100%;
-	background-color: red;
+.yellow {
+  border-bottom-right-radius: 100%;
+  background-color: rgb(255, 255, 0);
 }
 
-.blue.flash{
-	background-color: rgb(125, 125, 255);
+.red.flash {
+  background-color: rgb(255, 125, 125);
+}
+.red {
+  border-top-right-radius: 100%;
+  background-color: red;
 }
 
-.blue{
-	border-bottom-left-radius: 100%;
-	background-color: rgb(0, 0, 255);
+.blue.flash {
+  background-color: rgb(125, 125, 255);
 }
 
-.btn{
-	top: 46%;
-	position: absolute;
+.blue {
+  border-bottom-left-radius: 100%;
+  background-color: rgb(0, 0, 255);
 }
 
-.btn button{
-	background-color: #fff;
-	cursor: pointer;
-	width: 15rem;
-	height: 15rem;
-	border: none;
-	border-radius: 50%;
-	padding: 1rem;
-	font-size: 5rem;
+.btn {
+  top: 46%;
+  position: absolute;
 }
 
-@media screen and (max-width:576px){
-	.quarterCircle{
-		width: 300px;
-	}
-	.colorCard{
-		width: 150px;
-		height: 150px;
-	}
-	.btn{
-		top: 50%;
-	}
-	.btn button{
-		width: 10rem;
-		height: 10rem;
-		font-size: 3rem;
-	}
+.btn button {
+  background-color: #fff;
+  cursor: pointer;
+  width: 15rem;
+  height: 15rem;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .quarterCircle {
+    width: 300px;
+  }
+  .colorCard {
+    width: 150px;
+    height: 150px;
+  }
+  .btn {
+    top: 50%;
+  }
+  .btn button {
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+  }
+  .lost {
+    top: 50%;
+    width: 10rem;
+    height: 10rem;
+  }
+  .lost h3 {
+    font-size: 1.5rem;
+    padding: 3rem 0 1rem 0;
+  }
+  .lost button {
+    font-size: 1.2rem;
+  }
 }

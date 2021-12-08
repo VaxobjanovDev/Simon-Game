@@ -99,10 +99,11 @@ const Circle = () => {
 
   return (
     <div className="section">
-	
-      <div className="container">		<div className='text-header'>
-				<h2>Simon Game</h2>
-			</div>
+      <div className="container">
+        {" "}
+        <div className="text-header">
+          <h2>Simon Game</h2>
+        </div>
         <div className="quarterCircle">
           {colorList &&
             colorList.map((v, i) => (
